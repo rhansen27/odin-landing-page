@@ -3,4 +3,29 @@
   --main-text-color: #1f2937;
   --button-color: #3882f6;
   --quote-background: #e5e7eb;
+  --light-text-color: #f9faf8;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+.header-container {
+  background-color: var(--dark-background);
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+h3 {
+  color: var(--light-text-color);
+}
+a {
+  text-decoration: none;
+  color: var(--light-text-color);
+}
+.header-links {
+  display: flex;
+  gap: 16px;
+  padding-top: 16px;
 }
